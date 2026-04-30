@@ -54,7 +54,7 @@ function Example() {
       }}
     >
       <ScrollView>
-        <View
+        {/* <View
           style={[
             layout.justifyCenter,
             layout.itemsCenter,
@@ -69,10 +69,10 @@ function Example() {
             <AssetByVariant
               path="tom"
               resizeMode="contain"
-              style={{ height: 300, width: 300 }}
+              style={{ height: 200, width: 200 }}
             />
           </View>
-        </View>
+        </View> */}
 
         <View style={[gutters.paddingHorizontal_32, gutters.marginTop_40]}>
           <View style={[gutters.marginTop_40]}>
